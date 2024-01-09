@@ -1,0 +1,17 @@
+#loader {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: #4f667c;
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+#loader img {
+    height: 200px;
+}

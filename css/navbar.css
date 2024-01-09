@@ -1,0 +1,120 @@
+/* Resetting some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Increased z-index */
+}
+
+/* Navbar styles */
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 15px; /* Adjusted padding */
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius:  0 0 10px 10px;
+}
+
+/* Logo styles */
+.navbar .logo a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #175d69;
+  font-weight: bold;
+}
+
+/* Navigation links styles */
+.navbar .links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: #175d69;
+  padding: 12px; /* Adjusted padding */
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar .links a:hover {
+  color: #47b2e4;
+}
+
+/* Buttons styles */
+.navbar .buttons a {
+  text-decoration: none;
+  color: #175d69;
+  font-size: 1rem;
+  padding: 12px 18px; /* Adjusted padding */
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.navbar .buttons .signin:hover {
+  color: #47b2e4;
+}
+
+.navbar .buttons .signup {
+  background-color: #47b2e4;
+  border: 1px solid #47b2e4;
+}
+
+.navbar .buttons .signup:hover {
+  background-color: #47b2e4;
+  border-color: #47b2e4;
+}
+
+/* Toggle button styles */
+.navbar .toggle-btn {
+  display: none;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 923px) {
+  .navbar .logo a {
+    font-size: 1.5rem;
+  }
+
+  .navbar .links {
+    position: fixed;
+    left: -100%;
+    top: 75px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    background: rgba(255, 255, 255, 0.9);
+    flex-direction: column;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .navbar #menu-toggle:checked~.links {
+    left: 0;
+  }
+
+  .navbar .toggle-btn {
+    display: block;
+  }
+
+  .navbar .buttons {
+    display: none;
+  }
+
+  .destinations-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
