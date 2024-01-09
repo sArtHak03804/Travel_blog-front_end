@@ -4,6 +4,12 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![VSCode](https://img.shields.io/badge/Visual_Studio_Code-%23007ACC.svg?style=flat&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 [![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=flat&logo=git&logoColor=white)](https://git-scm.com/)
+###
+[![License](https://img.shields.io/github/license/sArtHak03804/Travel_blog-front_end-.svg)](https://github.com/sArtHak03804/Travel_blog-front_end-/blob/master/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/sArtHak03804/Travel_blog-front_end-.svg)](https://github.com/sArtHak03804/Travel_blog-front_end-/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/sArtHak03804/Travel_blog-front_end-.svg)](https://github.com/sArtHak03804/Travel_blog-front_end-/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/sArtHak03804/Travel_blog-front_end-.svg)](https://github.com/sArtHak03804/Travel_blog-front_end-/commits/master)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
