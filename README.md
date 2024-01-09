@@ -39,8 +39,8 @@ This repository contains the front-end code for a travel website. The project ai
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/travel-website.git
-   cd travel-website.
+   git clone https://github.com/sArtHak03804/Travel_blog-front_end-.git.
+   cd Travel_blog-front_end-.
 ### Project Structure
 
 - `images/`: Images of the website.
