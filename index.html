@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>travel Co</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/loader.css">
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h2 class="logo"><a href="#">Travel Co</a></h2>
+      <input style="height: 0px; width: 0px;" type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" id="hamburger-btn">
+        <svg class="toggle-btn" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"
+          style="color: white;">
+          <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </label>
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="templates/about.html">About Us</a></li>
+        <li><a href="templates/service.html">Services</a></li>
+        <li><a href="templates/blog.html">Blog</a></li>
+        <li><a href="templates/contact.html">Contact Us</a></li>
+      </ul>
+      <div class="buttons">
+        <a href="#" class="signin">Sign In</a>
+        <a href="#" class="signup">Sign Up</a>
+      </div>
+    </nav>
+  </header>
+
+  <div id="loader">
+    <img src="https://i.pinimg.com/originals/83/27/77/83277708d2fc0d0fbe54685581531f7b.gif" alt="">
+  </div>
+
+  <div class="wrapper">
+    <div class="top-content">
+      <video autoplay loop muted>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <span class="top-content-text" id="text">Welcome To Travel Co <br>
+        A place for <span id="element"></span></span>
+    </div>
+  </div>
+
+  <br><br><br>
+  <center>
+    <h1>Experience the Difference</h1>
+  </center>
+
+  <div class="counter-section">
+    <div class="counter-item">
+      <i class="fas fa-user"></i>
+      <p class="count" data-count="2458">0</p>
+      <p class="description">Users Satisfied</p>
+    </div>
+    <div class="counter-item">
+      <i class="fas fa-thumbs-up"></i>
+      <p class="count" data-count="95">0</p>
+      <p class="description">Satisfaction Rate</p>
+    </div>
+    <div class="counter-item">
+      <i class="fas fa-comment"></i>
+      <p class="count" data-count="524">0</p>
+      <p class="description">Positive Reviews</p>
+    </div>
+  </div>
+
+  <section class="featured-destinations">
+    <h2 class="destinations-heading">Featured Destinations</h2>
+    <div class="destinations-grid">
+      <div class="destination-item">
+        <img src="images/destination1.webp" alt="Destination 1" onclick="showPopup('images/destination1.webp')"
+          height="100%" width="100%">
+      </div>
+      <div class="destination-item">
+        <img src="images/destination2.webp" alt="Destination 2" onclick="showPopup('images/destination2.webp')"
+          height="100%" width="100%">
+      </div>
+      <div class="destination-item">
+        <img src="images/destination3.jpg" alt="Destination 3" onclick="showPopup('images/destination3.jpg')"
+          height="100%" width="100%">
+      </div>
+      <div class="destination-item">
+        <img src="images/destination4.jpg" alt="Destination 4" onclick="showPopup('images/destination4.jpg')"
+          height="100%" width="100%">
+      </div>
+      <div class="destination-item">
+        <img src="images/destination5.jpg" alt="Destination 5" onclick="showPopup('images/destination5.jpg')"
+          height="100%" width="100%">
+      </div>
+      <div class="destination-popup" id="popup">
+        <img id="popup-image" src="" alt="Popup Image" onclick="closePopup()">
+      </div>
+    </div>
+  </section>
+
+  <center>
+    <h1 class="lg-title">WHY CHOOSE US?</h1>
+  </center>
+
+  <div class="why-choose-container">
+    <div class="why-choose-item">
+      <i class="fa fa-plane"></i>
+      <h3>Great Destinations</h3>
+      <p>Explore amazing travel destinations around the world.</p>
+    </div>
+    <div class="why-choose-item">
+      <i class="fa fa-globe"></i>
+      <h3>Global Presence</h3>
+      <p>We have a global network to serve you better.</p>
+    </div>
+    <div class="why-choose-item">
+      <i class="fa fa-heart"></i>
+      <h3>Passionate Team</h3>
+      <p>Our team is passionate about making your travel unforgettable.</p>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="container">
+      <div class="title-wrap">
+        <span class="sm-title">Know about services that we offer</span>
+        <h2 class="lg-title">Our Services</h2>
+      </div>
+
+      <div class="services-row">
+        <div class="services-item">
+          <span class="services-icon">
+            <i class="fas fa-hotel"></i>
+          </span>
+          <h3>Luxurious Hotel</h3>
+          <p class="text">Explore our luxurious hotel options for a comfortable stay.</p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+
+        <div class="services-item">
+          <span class="services-icon">
+            <i class="fas fa-map-marked-alt"></i>
+          </span>
+          <h3>Travel Guide</h3>
+          <p class="text">Get expert travel guides to make the most of your trip.</p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+
+        <div class="services-item">
+          <span class="services-icon">
+            <i class="fas fa-money-bill"></i>
+          </span>
+          <h3>Suitable Price</h3>
+          <p class="text">Affordable prices that won't break your budget.</p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="booking-section">
+    <div class="booking-content">
+      <div class="booking-image">
+        <img src="https://img.freepik.com/free-vector/flight-booking-concept-illustration_114360-3012.jpg"
+          alt="Book a Demo Image">
+      </div>
+      <div class="booking-details">
+        <h2>Book a Demo</h2><br><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.<br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto laborum nostrum libero deserunt earum
+          animi odio blanditiis, labore temporibus eligendi perferendis consequuntur laudantium eveniet recusandae totam
+          id iste et officia.</p>
+        <a href="#" class="book-demo-button">Book a Demo</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonials-section">
+    <h2>What Our Visiter Say</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eum ad maiores qui temporibus, itaque
+          dolores commodi culpa animi pariatur doloremque dolorum nihil. Accusantium aut, ipsa necessitatibus laborum
+          animi deleniti? "</p>
+        <h4>-John Doe</h4>
+      </div>
+      <div class="testimonial">
+        <p>" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt voluptatum reprehenderit minima
+          dignissimos sequi tempora inventore unde velit hic itaque eius, animi, rerum distinctio repellat ipsa
+          reiciendis ullam dicta eaque. "</p>
+        <h4>-Jimmy sin</h4>
+      </div>
+      <div class="testimonial">
+        <p>" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt voluptatum reprehenderit minima
+          dignissimos sequi tempora inventore unde velit hic itaque eius, animi, rerum distinctio repellat ipsa
+          reiciendis ullam dicta eaque. "</p>
+        <h4>-Mike Coke</h4>
+      </div>
+    </div>
+  </div>
+
+  <h3><p align="right">A website by <a href="https://github.com/sArtHak03804">Sarthak Patel</a></p></h3><br><br>
+
+  <script>
+    function showPopup(imageSrc) {
+      const popup = document.getElementById('popup');
+      const popupImage = document.getElementById('popup-image');
+      popup.style.display = 'flex';
+      popupImage.src = imageSrc;
+    }
+
+    function closePopup() {
+      const popup = document.getElementById('popup');
+      popup.style.display = 'none';
+    }
+  </script>
+  <script>
+    const aboutCard = document.querySelector('.about-card');
+
+    aboutCard.addEventListener('mouseenter', () => {
+      aboutCard.classList.add('hover');
+    });
+
+    aboutCard.addEventListener('mouseleave', () => {
+      aboutCard.classList.remove('hover');
+    });
+  </script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['adventure', 'discovery', 'relaxation', 'exploration', 'memories'],
+      typeSpeed: 70,
+    });
+  </script>
+  <script>
+    const text = document.getElementById('text');
+
+
+    document.addEventListener('mousemove', (e) => {
+
+      const x = e.clientX / window.innerWidth;
+      const y = e.clientY / window.innerHeight;
+
+
+      const shadowX = (x - 0.5) * 50;
+      const shadowY = (y - 0.5) * 50;
+
+
+      text.style.textShadow = `${shadowX}px ${shadowY}px 5px black`;
+    });
+
+  </script>
+  <script src="script.js"></script>
+  <script src="js/loader.js"></script>
+</body>
+
+</html>

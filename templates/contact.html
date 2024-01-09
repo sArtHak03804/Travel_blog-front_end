@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact -travel Co</title>
+  <link rel="stylesheet" href="../css/loader.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h2 class="logo"><a href="#">Travel Co</a></h2>
+      <input style="height: 0px; width: 0px;" type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" id="hamburger-btn">
+        <svg class="toggle-btn" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"
+          style="color: white;">
+          <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </label>
+      <ul class="links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="../templates/about.html">About Us</a></li>
+        <li><a href="../templates/service.html">Services</a></li>
+        <li><a href="../templates/blog.html">Blog</a></li>
+        <li><a href="../templates/contact.html">Contact Us</a></li>
+      </ul>
+      <div class="buttons">
+        <a href="#" class="signin">Sign In</a>
+        <a href="#" class="signup">Sign Up</a>
+      </div>
+    </nav>
+  </header>
+
+  <div id="loader">
+    <img src="https://i.pinimg.com/originals/83/27/77/83277708d2fc0d0fbe54685581531f7b.gif" alt="">
+  </div>
+
+  <div class="contain">
+
+    <div class="wrapper">
+  
+      <div class="form">
+        <h4>GET IN TOUCH</h4>
+        <h2 class="form-headline">Send us a message</h2>
+        <form id="submit-form" action="">
+          <p>
+            <input id="name" class="form-input" type="text" placeholder="Your Name*">
+            <small class="name-error"></small>
+          </p>
+          <p>
+            <input id="email" class="form-input" type="email" placeholder="Your Email*">
+            <small class="name-error"></small>
+          </p>
+          <p class="full-width">
+            <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+            <small></small>
+          </p>
+          <p class="full-width">
+            <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+            <small></small>
+          </p>
+          <p class="full-width">
+            <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+          </p>
+          <p class="full-width">
+            <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+            <button class="reset-btn" onclick="reset()">Reset</button>
+          </p>
+        </form>
+      </div>
+  
+      <div class="contacts contact-wrapper">
+  
+        <ul>
+          <li>Discover the world with us! We've helped travelers explore destinations with a total booking value of <span class="highlight-text-grey">$2 billion</span>. Ready to embark on your journey?</li>
+          <span class="hightlight-contact-info">
+            <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> patelsarthak666@gmail.com</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 7777977918</span></li>
+          </span>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/loader.js"></script>
+  <script src="../js/contact.js"></script>
+</body>
+</html>
