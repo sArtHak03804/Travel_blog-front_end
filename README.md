@@ -6,7 +6,7 @@
 [![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=flat&logo=git&logoColor=white)](https://git-scm.com/)
 ###
 
-https://raw.githack.com/sArtHak03804/Travel_blog-front_end/index.html
+[view Live](https://raw.githack.com/sArtHak03804/Travel_blog-front_end/index.html).
 ###
 
 [![License](https://img.shields.io/github/license/sArtHak03804/Travel_blog-front_end-.svg)](https://github.com/sArtHak03804/Travel_blog-front_end-/blob/master/LICENSE)
